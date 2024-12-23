@@ -1,0 +1,22 @@
+{
+    "Factual": {
+        "Faithfulness": 0.8333333333333334,
+        "Contextual Relevancy": 0.3849206349206349,
+        "Answer Relevancy": 0.47368421052631576
+    },
+    "Interpretive": {
+        "Faithfulness": 0.7863247863247862,
+        "Contextual Relevancy": 0.40638528138528135,
+        "Answer Relevancy": 0.838468720821662
+    },
+    "Long Answer": {
+        "Faithfulness": 0.6237060041407867,
+        "Contextual Relevancy": 0.6749999999999999,
+        "Answer Relevancy": 0.7968350168350168
+    },
+    "Final": {
+        "Factual": 0.5639793929267614,
+        "Interpretive": 0.6770595961772431,
+        "Long Answer": 0.6985136736586011
+    }
+}

@@ -1,0 +1,553 @@
+{
+    "test_cases_lookup_map": {
+        "{\"actual_output\": \"In the Mahabharata, women like Draupadi, Kunti, and Gandhari play significant roles in driving the narrative and reflecting the epic's views on gender, power, and dharma. Their actions and choices, particularly Draupadi's defiance and Kunti's decision-making, challenge the patriarchal structure of the Kauravas and highlight the importance of women's involvement in decision-making. This contrast between the matriarchal Pandavas and patriarchal Kauravas underscores the epic's nuanced exploration of gender dynamics.\", \"context\": null, \"expected_output\": null, \"hyperparameters\": null, \"input\": \"Examine the role of women in the Mahabharata, focusing on Draupadi, Kunti, and Gandhari. How do their actions and choices drive the narrative and reflect the epic's views on gender, power, and dharma?\", \"retrieval_context\": [\"In fact, the war of Mahabharata was the result of disgrace of Draupadi by Kauravas. Women role in decision making helped Pandavas to win the war. 3.16 Loyalty One can succeed in long run in life only\\n\\nto achieve higher and sustainable goals. In Mahabharata, Kauravas followed patriarchal structure. They didn\\u2019t involve women in decision making. Moreover they also dishonoured Draupadi. On the other\\n\\nprocess. You dont hear many stories about Duryodhana\\u2019s wife, Dusassana\\u2019s wife or daugthers. Pandavas follow a matriarchal structure. Kunti is the final decision maker and everyone listens to her, no\\n\\nDraupadi), performed by any of the women noted in this world for their\\n\\nbeauty. When the sons of both Pandu and Dhritarashtra were excited with\"]}": {
+            "cached_metrics_data": [
+                {
+                    "metric_data": {
+                        "name": "Faithfulness",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because there are no contradictions, indicating perfect alignment between the actual output and the retrieval context.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Truths (limit=None):\n[\n    \"The war of Mahabharata was the result of the disgrace of Draupadi by the Kauravas.\",\n    \"Women played a role in decision making that helped the Pandavas win the war.\",\n    \"The Kauravas followed a patriarchal structure.\",\n    \"The Kauravas did not involve women in decision making.\",\n    \"The Kauravas dishonored Draupadi.\",\n    \"The Pandavas followed a matriarchal structure.\",\n    \"Kunti was the final decision maker among the Pandavas.\"\n] \n \nClaims:\n[\n    \"In the Mahabharata, women like Draupadi, Kunti, and Gandhari play significant roles in driving the narrative.\",\n    \"The actions and choices of Draupadi and Kunti challenge the patriarchal structure of the Kauravas.\",\n    \"The Mahabharata reflects views on gender, power, and dharma.\",\n    \"Draupadi's defiance highlights the importance of women's involvement in decision-making.\",\n    \"There is a contrast between the matriarchal Pandavas and patriarchal Kauravas in the Mahabharata.\",\n    \"The Mahabharata explores nuanced gender dynamics.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Contextual Relevancy",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 0.7142857142857143,
+                        "reason": "The score is 0.71 because while the context includes relevant statements like 'the war of Mahabharata was the result of disgrace of Draupadi by Kauravas' and 'Women role in decision making helped Pandavas to win the war', it also contains irrelevant information, such as discussions about the lack of stories or beauty, which detracts from the focus on the significant actions and choices of women.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Verdicts:\n[\n    {\n        \"verdicts\": [\n            {\n                \"statement\": \"the war of Mahabharata was the result of disgrace of Draupadi by Kauravas.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"Women role in decision making helped Pandavas to win the war.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"In Mahabharata, Kauravas followed patriarchal structure. They didn\\u2019t involve women in decision making.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"Moreover they also dishonoured Draupadi.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"On the other hand, Pandavas follow a matriarchal structure. Kunti is the final decision maker and everyone listens to her.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"You dont hear many stories about Duryodhana\\u2019s wife, Dusassana\\u2019s wife or daughters.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The statement focuses on the lack of stories about certain characters rather than the roles and actions of Draupadi, Kunti, and Gandhari.\"\n            },\n            {\n                \"statement\": \"performed by any of the women noted in this world for their beauty.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement does not pertain to the actions and choices of women in Mahabharata but rather shifts focus to beauty, which is irrelevant to the input.\"\n            }\n        ]\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Answer Relevancy",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response thoroughly addresses the role of women in the Mahabharata, specifically analyzing Draupadi, Kunti, and Gandhari without including any irrelevant statements.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Statements:\n[\n    \"In the Mahabharata, women like Draupadi, Kunti, and Gandhari play significant roles.\",\n    \"These women reflect the epic's views on gender, power, and dharma.\",\n    \"Draupadi's defiance challenges the patriarchal structure of the Kauravas.\",\n    \"Kunti's decision-making highlights the importance of women's involvement in decision-making.\",\n    \"There is a contrast between the matriarchal Pandavas and patriarchal Kauravas.\",\n    \"The epic explores gender dynamics in a nuanced way.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        "{\"actual_output\": \"In the Mahabharata, Time (Kala) is portrayed as both a destroyer and preserver. For example, Time is depicted as a destroyer in the Udyoga Parva, where the destruction of both the Pandavas and Kauravas is foretold, highlighting Time's role in ending all things. Conversely, Time is shown as a preserver in the Anushasana Parva, where the cycle of creation and destruction is described, emphasizing Time's role in maintaining the natural order.\", \"context\": null, \"expected_output\": null, \"hyperparameters\": null, \"input\": \"Analyze how the concept of Time (Kala) is portrayed as both a destroyer and preserver throughout the epic, using specific examples from different parvas?\", \"retrieval_context\": [\"the narrative, Satyabhama, giving way to wrath and tears, approached\\n\\nKeshava and sitting on his lap enhanced his anger (for Kritavarma). Then\\n\\ndown on the earth, like a snake of five heads. The Kuru warrior,\\n\\nbeholding himself incapacitated by Partha abandoned his hold on Satyaki\\n\\nand wrathfully reproved the son of Pandu.'\\n\\ndestruction of both the parties, what merit dost thou see? If the\\n\\nPandavas are slaughtered in battle, or if thy own mighty sons fall, tell\\n\\nTell me the details of the great destruction of the Bharatas. Tell me how\\n\\nmy son Duryodhana fell in battle. Tell me how all the Pancalas with their\"]}": {
+            "cached_metrics_data": [
+                {
+                    "metric_data": {
+                        "name": "Faithfulness",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because there are no contradictions, indicating full alignment between the actual output and the retrieval context.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Truths (limit=None):\n[\n    \"Satyabhama approached Keshava.\",\n    \"Satyabhama sat on Keshava's lap.\",\n    \"Satyabhama's actions enhanced Keshava's anger towards Kritavarma.\",\n    \"A Kuru warrior felt incapacitated by Partha.\",\n    \"The Kuru warrior abandoned his hold on Satyaki.\",\n    \"The Kuru warrior reproached the son of Pandu.\",\n    \"There was a concern about the destruction of both parties in battle.\",\n    \"The Pandavas could be slaughtered in battle.\",\n    \"Duryodhana fell in battle.\",\n    \"The Pancalas faced destruction.\"\n] \n \nClaims:\n[\n    \"In the Mahabharata, Time (Kala) is portrayed as both a destroyer and preserver.\",\n    \"Time is depicted as a destroyer in the Udyoga Parva.\",\n    \"The destruction of both the Pandavas and Kauravas is foretold in the Udyoga Parva.\",\n    \"Time's role in ending all things is highlighted in the Udyoga Parva.\",\n    \"Time is shown as a preserver in the Anushasana Parva.\",\n    \"The cycle of creation and destruction is described in the Anushasana Parva.\",\n    \"Time's role in maintaining the natural order is emphasized in the Anushasana Parva.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Contextual Relevancy",
+                        "threshold": 0.7,
+                        "success": false,
+                        "score": 0.0,
+                        "reason": "The score is 0.00 because there are no relevant statements in the retrieval context to support the analysis of Time (Kala) as a destroyer and preserver; all provided statements are unrelated to the concept.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Verdicts:\n[\n    {\n        \"verdicts\": [\n            {\n                \"statement\": \"the narrative, Satyabhama, giving way to wrath and tears, approached Keshava and sitting on his lap enhanced his anger (for Kritavarma).\",\n                \"verdict\": \"no\",\n                \"reason\": \"The statement discusses Satyabhama's emotions and her interaction with Keshava, which does not relate to the concept of Time (Kala) as a destroyer and preserver.\"\n            },\n            {\n                \"statement\": \"Then down on the earth, like a snake of five heads.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This metaphor does not pertain to the portrayal of Time (Kala) in the epic.\"\n            },\n            {\n                \"statement\": \"The Kuru warrior, beholding himself incapacitated by Partha abandoned his hold on Satyaki and wrathfully reproved the son of Pandu.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement is focused on the warrior's incapacitation and does not discuss the role of Time (Kala).\"\n            },\n            {\n                \"statement\": \"destruction of both the parties, what merit dost thou see?\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement questions the merit of destruction without addressing the concept of Time (Kala) specifically.\"\n            },\n            {\n                \"statement\": \"If the Pandavas are slaughtered in battle, or if thy own mighty sons fall, tell.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement discusses the consequences of battle rather than the philosophical aspects of Time (Kala).\"\n            },\n            {\n                \"statement\": \"Tell me the details of the great destruction of the Bharatas.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement is asking for details about destruction rather than exploring the dual nature of Time (Kala).\"\n            },\n            {\n                \"statement\": \"Tell me how my son Duryodhana fell in battle.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This focuses on a specific event in battle and does not relate to Time (Kala) as a concept.\"\n            },\n            {\n                \"statement\": \"Tell me how all the Pancalas with their.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The incomplete statement does not provide relevant information about Time (Kala).\"\n            }\n        ]\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Answer Relevancy",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response effectively addresses the portrayal of Time (Kala) as both a destroyer and preserver in the epic, providing relevant examples from different parvas without any irrelevant statements.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Statements:\n[\n    \"In the Mahabharata, Time (Kala) is portrayed as both a destroyer and preserver.\",\n    \"Time is depicted as a destroyer in the Udyoga Parva.\",\n    \"The destruction of both the Pandavas and Kauravas is foretold.\",\n    \"Time's role in ending all things is highlighted.\",\n    \"Time is shown as a preserver in the Anushasana Parva.\",\n    \"The cycle of creation and destruction is described.\",\n    \"Time's role in maintaining the natural order is emphasized.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        "{\"actual_output\": \"Bhishma's vow of celibacy and devotion to his father's happiness reflect the theme of duty versus personal desire in the Mahabharata by prioritizing his duty to his father over his own personal desires. He relinquished the sovereignty and gave up the chance to have children to fulfill his vow, demonstrating his commitment to duty. This choice ultimately leads to his own downfall, highlighting the conflict between personal desire and duty.\", \"context\": null, \"expected_output\": null, \"hyperparameters\": null, \"input\": \"How does Bhishma's vow of celibacy and his devotion to his father's happiness reflect the theme of duty versus personal desire in the Mahabharata?\", \"retrieval_context\": [\"Devavrata in battle. O hero, be not a person of unfulfilled vow. Take\\n\\ncare of thy virtue, race, and fame. Behold Bhishma of terrible\\n\\nThen Bhishma, the son of Santanu, of rigid vows and devoted to truth,\\n\\nhaving formerly relinquished the sovereignty would never accept it now.\\n\\ncause that hero of great vows to be slain. Therefore, O sinless Rama,\\n\\ngratify this desire of mine! O thou of mighty arms, slay Bhishma, even as\\n\\nPurandara slew Vritra.'\\\"\\n\\nSECTION CLXXX\\n\\nBhishma, the son of Santanu, devoted to truth, doth not, for the sake, of\\n\\ntruth, entertain the desire of either begetting children or ruling the\"]}": {
+            "cached_metrics_data": [
+                {
+                    "metric_data": {
+                        "name": "Faithfulness",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because there are no contradictions present, indicating that the actual output is fully aligned with the retrieval context.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Truths (limit=None):\n[\n    \"Bhishma is the son of Santanu.\",\n    \"Bhishma is devoted to truth.\",\n    \"Bhishma relinquished sovereignty in the past.\",\n    \"Bhishma would never accept sovereignty now.\",\n    \"Bhishma has great vows.\",\n    \"Bhishma does not desire to beget children.\",\n    \"Bhishma does not desire to rule.\"\n] \n \nClaims:\n[\n    \"Bhishma's vow of celibacy and devotion to his father's happiness reflect the theme of duty versus personal desire in the Mahabharata.\",\n    \"Bhishma prioritized his duty to his father over his own personal desires.\",\n    \"Bhishma relinquished the sovereignty and gave up the chance to have children to fulfill his vow.\",\n    \"Bhishma's choice demonstrates his commitment to duty.\",\n    \"Bhishma's choice ultimately leads to his own downfall.\",\n    \"The conflict between personal desire and duty is highlighted by Bhishma's story.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Contextual Relevancy",
+                        "threshold": 0.7,
+                        "success": false,
+                        "score": 0.5,
+                        "reason": "The score is 0.50 because while there are relevant statements about Bhishma's devotion to truth and his relinquishment of sovereignty, the overall context strays from the specific theme of duty versus personal desire, as noted in the irrelevancy reasons.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Verdicts:\n[\n    {\n        \"verdicts\": [\n            {\n                \"statement\": \"Bhishma, the son of Santanu, devoted to truth, doth not, for the sake, of truth, entertain the desire of either begetting children or ruling the sovereignty.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"Then Bhishma, the son of Santanu, of rigid vows and devoted to truth, having formerly relinquished the sovereignty would never accept it now.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"O hero, be not a person of unfulfilled vow. Take care of thy virtue, race, and fame.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The statement advises a hero on virtue and fame, which deviates from Bhishma's specific vow of celibacy and devotion to his father's happiness.\"\n            },\n            {\n                \"statement\": \"cause that hero of great vows to be slain. Therefore, O sinless Rama, gratify this desire of mine! O thou of mighty arms, slay Bhishma, even as Purandara slew Vritra.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement discusses the desire to slay Bhishma, which does not relate to the theme of duty versus personal desire.\"\n            }\n        ]\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Answer Relevancy",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response directly addresses the theme of duty versus personal desire in the Mahabharata through Bhishma's vow of celibacy and devotion to his father's happiness without any irrelevant statements.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Statements:\n[\n    \"Bhishma's vow of celibacy and devotion to his father's happiness reflect the theme of duty versus personal desire in the Mahabharata.\",\n    \"He prioritized his duty to his father over his own personal desires.\",\n    \"He relinquished the sovereignty and gave up the chance to have children to fulfill his vow.\",\n    \"This choice ultimately leads to his own downfall.\",\n    \"This highlights the conflict between personal desire and duty.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        "{\"actual_output\": \"I don't have specific information on the conditions of the dice game between the Pandavas and Kauravas, but it appears that Sakuni, with the help of Duryodhana, manipulated the game to cheat and win. The wager in each round was likely the Pandavas' kingdom and their freedom, as Yudhishthira lost both in the game.\", \"context\": null, \"expected_output\": null, \"hyperparameters\": null, \"input\": \"What were the conditions of the dice game between the Pandavas and Kauravas, and what was wagered in each round?\", \"retrieval_context\": [\"Duryodhana, Sakuni formerly won in game of dice. Yudhishthira, the son of\\n\\nPandu went to the woods according to a stipulation. He is now paying no\\n\\nYudhishthira, the son of Pandu. He lost his extensive and prosperous\\n\\nkingdom and his god-like brothers at dice. For this, I am averse to\\n\\ngambling. But if thou likest, O king, I will play.'\\n\\nwise Vidura at the time of the gambling match at dice. These thy\\n\\nlamentations in connection with the Pandavas, as if thou wert a helpless\\n\\nperson, are, O king, all useless.'\\\"\\n\\nSECTION LV\\n\\nand the preparations for the game of dice; the defeat of Yudhishthira at\\n\\nplay by the wily Sakuni; the deliverance by Dhritarashtra of his\"]}": {
+            "cached_metrics_data": [
+                {
+                    "metric_data": {
+                        "name": "Faithfulness",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because there are no contradictions present, indicating a perfect alignment between the actual output and the retrieval context.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Truths (limit=None):\n[\n    \"Duryodhana and Sakuni won in a game of dice.\",\n    \"Yudhishthira is the son of Pandu.\",\n    \"Yudhishthira went to the woods according to a stipulation.\",\n    \"Yudhishthira lost his kingdom and his brothers at dice.\",\n    \"The narrator expresses aversion to gambling.\",\n    \"Wise Vidura was present at the time of the gambling match.\",\n    \"The lamentations connected with the Pandavas are considered useless by the narrator.\",\n    \"The preparations for the game of dice involved Yudhishthira's defeat by Sakuni.\",\n    \"Dhritarashtra was involved in the gambling match.\"\n] \n \nClaims:\n[\n    \"Sakuni, with the help of Duryodhana, manipulated the dice game to cheat and win.\",\n    \"The wager in each round was likely the Pandavas' kingdom and their freedom.\",\n    \"Yudhishthira lost both the Pandavas' kingdom and their freedom in the game.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Contextual Relevancy",
+                        "threshold": 0.7,
+                        "success": false,
+                        "score": 0.16666666666666666,
+                        "reason": "The score is 0.17 because the relevant statement 'Yudhishthira lost his extensive and prosperous kingdom and his god-like brothers at dice' is too vague to provide specific details about the conditions and wagers of the game, while the other statements in the retrieval context do not address these aspects at all.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Verdicts:\n[\n    {\n        \"verdicts\": [\n            {\n                \"statement\": \"Yudhishthira lost his extensive and prosperous kingdom and his god-like brothers at dice.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"Duryodhana, Sakuni formerly won in game of dice.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The retrieval context contained the information 'Duryodhana, Sakuni formerly won in game of dice' which does not specify the conditions or wagers of the game.\"\n            },\n            {\n                \"statement\": \"He is now paying no Yudhishthira, the son of Pandu.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The retrieval context contained the information 'He is now paying no Yudhishthira' that does not relate to the conditions or wagers of the dice game.\"\n            },\n            {\n                \"statement\": \"But if thou likest, O king, I will play.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The retrieval context contained the information 'But if thou likest, O king, I will play' which does not provide relevant details about the conditions or wagers of the game.\"\n            },\n            {\n                \"statement\": \"These thy lamentations in connection with the Pandavas, as if thou wert a helpless person, are, O king, all useless.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The retrieval context contained the information 'These thy lamentations in connection with the Pandavas' which is irrelevant to the conditions or wagers of the dice game.\"\n            },\n            {\n                \"statement\": \"the preparations for the game of dice; the defeat of Yudhishthira at play by the wily Sakuni; the deliverance by Dhritarashtra of his.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The retrieval context contained the information 'the preparations for the game of dice; the defeat of Yudhishthira at play by the wily Sakuni' which does not directly state the conditions or wagers in each round.\"\n            }\n        ]\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Answer Relevancy",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response directly addressed the conditions of the dice game and the wagers made in each round without any irrelevant statements.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Statements:\n[\n    \"I don't have specific information on the conditions of the dice game between the Pandavas and Kauravas.\",\n    \"Sakuni manipulated the game to cheat and win.\",\n    \"Duryodhana helped Sakuni.\",\n    \"The wager in each round was likely the Pandavas' kingdom and their freedom.\",\n    \"Yudhishthira lost both in the game.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        "{\"actual_output\": \"Karna and Arjuna share similarities as both are skilled warriors and possess great strength, with Karna being a mighty warrior versed in celestial weapons. However, their differences lie in their backgrounds, with Karna being a Suta caste warrior and Arjuna being a Kshatriya prince. Their parallel journeys, marked by their contrasting fates, contribute to the epic's themes of fate, duty, and the consequences of one's actions.\", \"context\": null, \"expected_output\": null, \"hyperparameters\": null, \"input\": \"Compare and contrast the characters of Karna and Arjuna, analyzing their similarities, differences, and how their parallel journeys contribute to the epic's themes.\", \"retrieval_context\": [\"place between myself and Arjuna.' While Karna and the Kuru king were thus\\n\\ntalking to each other in battle, Arjuna began, with his keen arrows, to\\n\\nArjuna's car, between those two mighty car-warriors, viz., Bhima and\\n\\nKarna, both of whom are endued with great strength? Once before Karna had\\n\\nArjuna be named in the same breath as Rama and Janardana. If you two are\\n\\nunited together, what cannot be accomplished in the world? O Karna,\\n\\ndesire to encounter Arjuna in fight. And Karna also of the Suta caste is\\n\\na mighty warrior versed in celestial weapons. In respect of the impetus\"]}": {
+            "cached_metrics_data": [
+                {
+                    "metric_data": {
+                        "name": "Faithfulness",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because there are no contradictions present, indicating perfect alignment between the actual output and the retrieval context.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Truths (limit=None):\n[\n    \"Arjuna is skilled with keen arrows.\",\n    \"Karna is a mighty warrior.\",\n    \"Karna is of the Suta caste.\",\n    \"Both Karna and Arjuna are described as mighty car-warriors.\",\n    \"Bhima is mentioned alongside Karna and Arjuna.\",\n    \"Karna is versed in celestial weapons.\",\n    \"Karna has previously been mentioned in the same breath as Rama and Janardana.\"\n] \n \nClaims:\n[\n    \"Karna and Arjuna share similarities as both are skilled warriors and possess great strength.\",\n    \"Karna is a mighty warrior versed in celestial weapons.\",\n    \"Karna is a Suta caste warrior.\",\n    \"Arjuna is a Kshatriya prince.\",\n    \"Karna and Arjuna have contrasting backgrounds.\",\n    \"Karna and Arjuna have parallel journeys.\",\n    \"Karna and Arjuna's journeys are marked by contrasting fates.\",\n    \"The epic's themes include fate, duty, and the consequences of one's actions.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Contextual Relevancy",
+                        "threshold": 0.7,
+                        "success": false,
+                        "score": 0.6,
+                        "reason": "The score is 0.60 because while there are relevant statements like 'Karna and Arjuna are both mighty car-warriors, endued with great strength,' the overall context focuses on their potential cooperation and desire for confrontation, which doesn't directly inform a thorough comparison of their characters.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Verdicts:\n[\n    {\n        \"verdicts\": [\n            {\n                \"statement\": \"Karna and Arjuna are both mighty car-warriors, endued with great strength.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"Karna is a mighty warrior versed in celestial weapons.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"Arjuna be named in the same breath as Rama and Janardana.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"If you two are united together, what cannot be accomplished in the world?\",\n                \"verdict\": \"no\",\n                \"reason\": \"The statement focuses on the potential of Karna and Arjuna working together, which does not directly contribute to a comparison of their characters.\"\n            },\n            {\n                \"statement\": \"O Karna, desire to encounter Arjuna in fight.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement expresses a desire for confrontation rather than providing insights into their characters or journeys.\"\n            }\n        ]\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Answer Relevancy",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response directly addressed the comparison of Karna and Arjuna, providing a thorough analysis of their similarities, differences, and the contribution of their journeys to the epic's themes without any irrelevant statements.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Statements:\n[\n    \"Karna and Arjuna share similarities as both are skilled warriors and possess great strength.\",\n    \"Karna is a mighty warrior versed in celestial weapons.\",\n    \"Their differences lie in their backgrounds.\",\n    \"Karna is a Suta caste warrior.\",\n    \"Arjuna is a Kshatriya prince.\",\n    \"Their parallel journeys are marked by their contrasting fates.\",\n    \"Their journeys contribute to the epic's themes of fate, duty, and the consequences of one's actions.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        "{\"actual_output\": \"Arjuna received various divine weapons, or astras, from several deities and sages. The specific weapons received include the Aindra astra from Indra, and other astras from Rudra, Yama, Varuna, Kuvera, and Drona.\", \"context\": null, \"expected_output\": null, \"hyperparameters\": null, \"input\": \"Detail the various divine weapons (astras) received by Arjuna during his training, from whom he received them, and under what circumstances?\", \"retrieval_context\": [\"weapons obtained by Arjuna from Rudra and Indra and Yama and Varuna and\\n\\nKuvera and Drona and the illustrious Kripa, the wielder of Gandiva\\n\\nBeholding the brahmastra, Arjuna invoked the Aindra weapon with proper\\n\\nmantras. Inspiring gandiva, its string, and his shafts also, with\\n\\nDisplaying diverse weapons of beautiful look and of great celerity, the\\n\\nheroic son of Arjuna battled mildly with them. Those weapons that he had\\n\\nBhagadatta, Kesava, covering Arjuna, received on his breast. Thereupon,\\n\\nthat weapon became a triumphal garland on Kesava's breast. Arjuna then\"]}": {
+            "cached_metrics_data": [
+                {
+                    "metric_data": {
+                        "name": "Faithfulness",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 0.8571428571428571,
+                        "reason": "The score is 0.86 because the actual output inaccurately claims that Arjuna received astras from Drona, while the retrieval context does not support this assertion regarding Drona's involvement.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Truths (limit=None):\n[\n    \"Arjuna obtained weapons from Rudra, Indra, Yama, Varuna, Kuvera, Drona, and Kripa.\",\n    \"Kripa is referred to as the wielder of Gandiva.\",\n    \"Arjuna invoked the Aindra weapon using proper mantras.\",\n    \"Arjuna inspired his Gandiva bow, its string, and his shafts.\",\n    \"The son of Arjuna displayed diverse weapons that were beautiful and had great celerity.\",\n    \"Bhagadatta and Kesava covered Arjuna during battle.\",\n    \"A weapon became a triumphal garland on Kesava's breast.\"\n] \n \nClaims:\n[\n    \"Arjuna received various divine weapons, or astras, from several deities and sages.\",\n    \"Arjuna received the Aindra astra from Indra.\",\n    \"Arjuna received astras from Rudra.\",\n    \"Arjuna received astras from Yama.\",\n    \"Arjuna received astras from Varuna.\",\n    \"Arjuna received astras from Kuvera.\",\n    \"Arjuna received astras from Drona.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"no\",\n        \"reason\": \"The actual output states Arjuna received astras from Drona, but the retrieval context does not mention Drona providing any weapons to Arjuna.\"\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Contextual Relevancy",
+                        "threshold": 0.7,
+                        "success": false,
+                        "score": 0.4,
+                        "reason": "The score is 0.40 because while the contextual statements mention 'weapons obtained by Arjuna from Rudra and Indra and Yama and Varuna and Kuvera and Drona and the illustrious Kripa,' the surrounding context fails to provide comprehensive details about the divine weapons or the circumstances of their receipt, leading to a lack of complete relevance.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Verdicts:\n[\n    {\n        \"verdicts\": [\n            {\n                \"statement\": \"weapons obtained by Arjuna from Rudra and Indra and Yama and Varuna and Kuvera and Drona and the illustrious Kripa\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"Beholding the brahmastra, Arjuna invoked the Aindra weapon with proper mantras.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"Displaying diverse weapons of beautiful look and of great celerity, the heroic son of Arjuna battled mildly with them.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The statement describes Arjuna's battle but does not specify details about the divine weapons or their origins.\"\n            },\n            {\n                \"statement\": \"Those weapons that he had Bhagadatta, Kesava, covering Arjuna, received on his breast.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement does not provide relevant information about the divine weapons received by Arjuna during his training.\"\n            },\n            {\n                \"statement\": \"Thereupon, that weapon became a triumphal garland on Kesava's breast.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement focuses on the aftermath of a weapon's use rather than detailing the weapons themselves or their receipt.\"\n            }\n        ]\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Answer Relevancy",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because all the information provided directly addresses the question about Arjuna's divine weapons, making it completely relevant and accurate.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Statements:\n[\n    \"Arjuna received various divine weapons, or astras, from several deities and sages.\",\n    \"The specific weapons received include the Aindra astra from Indra.\",\n    \"Other astras were received from Rudra.\",\n    \"Other astras were received from Yama.\",\n    \"Other astras were received from Varuna.\",\n    \"Other astras were received from Kuvera.\",\n    \"Other astras were received from Drona.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        "{\"actual_output\": \"The Khandava Forest was consumed by a great slaughter of its creatures, led by the god Krishna and his companion Arjuna, at the behest of the god Agni. The forest burned for days, sparing only six of its dwellers, including Aswasena, Maya, and four birds called Sarngakas. The immediate consequence was the destruction of the forest, while the long-term consequence is not explicitly stated in the provided context.\", \"context\": null, \"expected_output\": null, \"hyperparameters\": null, \"input\": \"Describe the events leading up to and including the burning of the Khandava Forest. What were its immediate and long-term consequences?\", \"retrieval_context\": [\"that forest, began a great slaughter, on all sides, of the creatures\\n\\ndwelling in Khandava. At whatever point any of the creatures residing in\\n\\ndays. And while the forest burned Agni spared only six of its dwellers,\\n\\nviz., Aswasena, Maya, and four birds called Sarngakas.'\\\"\\n\\nSECTION CCXXXI\\n\\n(Khandava-daha Parva continued)\\n\\nO Bharata, that burning forest then looked resplendent like the king of\\n\\nmountains, Meru, blazing with the rays of the sun fallen thereupon.'\\\"\\n\\nSECTION CCXXVIII\\n\\n(Khandava-daha Parva continued)\\n\\nBrahmana, to hear all this in detail from thee. Tell me, O sage, how the\\n\\nKhandava forest was consumed in days of yore.'\\n\\n\\\"Vaisampayana said, 'O chief of men, I will narrate to you the story of\"]}": {
+            "cached_metrics_data": [
+                {
+                    "metric_data": {
+                        "name": "Faithfulness",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 0.8333333333333334,
+                        "reason": "The score is 0.83 because the actual output fails to mention Krishna and Arjuna's roles in the slaughter, focusing solely on Agni's involvement.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Truths (limit=None):\n[\n    \"A great slaughter occurred in the Khandava forest.\",\n    \"The creatures dwelling in Khandava were affected by the slaughter.\",\n    \"Agni spared six dwellers of the Khandava forest: Aswasena, Maya, and four birds called Sarngakas.\",\n    \"The burning Khandava forest looked resplendent like the king of mountains, Meru.\",\n    \"The events described took place during the days of yore.\"\n] \n \nClaims:\n[\n    \"The Khandava Forest was consumed by a great slaughter of its creatures.\",\n    \"The slaughter was led by the god Krishna and his companion Arjuna.\",\n    \"The slaughter was at the behest of the god Agni.\",\n    \"The forest burned for days.\",\n    \"Only six of its dwellers were spared, including Aswasena, Maya, and four birds called Sarngakas.\",\n    \"The immediate consequence was the destruction of the forest.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"no\",\n        \"reason\": \"The actual output does not mention Krishna and Arjuna leading the slaughter; it only states that Agni was involved.\"\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Contextual Relevancy",
+                        "threshold": 0.7,
+                        "success": false,
+                        "score": 0.6666666666666666,
+                        "reason": "The score is 0.67 because while some relevant statements describe the destruction of the forest, such as 'that forest, began a great slaughter, on all sides, of the creatures dwelling in Khandava,' other statements fail to provide context, like 'to hear all this in detail from thee.' This mixture of relevant and irrelevant content lowers the overall relevancy score.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Verdicts:\n[\n    {\n        \"verdicts\": [\n            {\n                \"statement\": \"that forest, began a great slaughter, on all sides, of the creatures dwelling in Khandava.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"At whatever point any of the creatures residing in Khandava were encountered, they were slain.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"And while the forest burned Agni spared only six of its dwellers, viz., Aswasena, Maya, and four birds called Sarngakas.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"that burning forest then looked resplendent like the king of mountains, Meru, blazing with the rays of the sun fallen thereupon.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"O Bharata, to hear all this in detail from thee.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The statement is irrelevant as it contains the phrase 'to hear all this in detail from thee', which does not describe the events of the burning of the Khandava Forest.\"\n            },\n            {\n                \"statement\": \"Tell me, O sage, how the Khandava forest was consumed in days of yore.\",\n                \"verdict\": \"no\",\n                \"reason\": \"The phrase 'how the Khandava forest was consumed in days of yore' does not provide specific details about the events leading up to the burning or its consequences.\"\n            }\n        ]\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Answer Relevancy",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response directly addressed the input without any irrelevant statements, providing a clear and focused description of the events surrounding the burning of the Khandava Forest and its consequences.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Statements:\n[\n    \"The Khandava Forest was consumed by a great slaughter of its creatures.\",\n    \"Led by the god Krishna and his companion Arjuna.\",\n    \"At the behest of the god Agni.\",\n    \"The forest burned for days.\",\n    \"Sparing only six of its dwellers.\",\n    \"Including Aswasena, Maya, and four birds called Sarngakas.\",\n    \"The immediate consequence was the destruction of the forest.\",\n    \"The long-term consequence is not explicitly stated in the provided context.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"idk\",\n        \"reason\": \"The statement about long-term consequences is not explicitly stated, making it ambiguous in addressing the input.\"\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        "{\"actual_output\": \"The eldest among the Pandava brothers was Yudhishthira. He was the eldest son of Kunti and the eldest brother of Bhima and Arjuna.\", \"context\": null, \"expected_output\": null, \"hyperparameters\": null, \"input\": \"Who was the eldest among the Pandava brothers?\", \"retrieval_context\": [\"arrive, the eldest of the Pandavas, conversant with all rules of duty,\\n\\nquickly stood up with his younger brothers. Bending low with humility,\\n\\nthe high-souled Pandavas possessed of every accomplishment. The eldest\\n\\nbrother of Gada foresaw the destruction of all the kings; Janarddana,\\n\\nthe illustrious Pandu. Know me to be the eldest of the sons of Kunti and\\n\\nthese to be Bhima and Arjuna. By these, O king, was thy daughter won amid\\n\\nfact that he is the eldest brother of Pandavas. 3.17 Being Impartial Efficient leaders should be impartial. Each and everyone should be rewarded according to his contribution. This will encourage\"]}": {
+            "cached_metrics_data": [
+                {
+                    "metric_data": {
+                        "name": "Faithfulness",
+                        "threshold": 0.7,
+                        "success": false,
+                        "score": 0.5,
+                        "reason": "The score is 0.50 because the actual output inaccurately states that Yudhishthira is only the eldest brother of Bhima and Arjuna, whereas he is the eldest among all the Pandava brothers.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Truths (limit=None):\n[\n    \"The eldest of the Pandavas is conversant with all rules of duty.\",\n    \"The Pandavas possess every accomplishment.\",\n    \"The eldest brother of Gada foresaw the destruction of all the kings.\",\n    \"Janarddana is referred to as the illustrious Pandu.\",\n    \"The speaker identifies as the eldest of the sons of Kunti.\",\n    \"The speaker's younger brothers are Bhima and Arjuna.\",\n    \"The speaker's brothers won the king's daughter.\"\n] \n \nClaims:\n[\n    \"Yudhishthira was the eldest among the Pandava brothers.\",\n    \"Yudhishthira was the eldest son of Kunti.\",\n    \"Yudhishthira was the eldest brother of Bhima.\",\n    \"Yudhishthira was the eldest brother of Arjuna.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"no\",\n        \"reason\": \"The actual output claims Yudhishthira is the eldest brother of Bhima, but he is the eldest among all Pandava brothers, not just Bhima.\"\n    },\n    {\n        \"verdict\": \"no\",\n        \"reason\": \"The actual output claims Yudhishthira is the eldest brother of Arjuna, but he is the eldest among all Pandava brothers, not just Arjuna.\"\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Contextual Relevancy",
+                        "threshold": 0.7,
+                        "success": false,
+                        "score": 0.4,
+                        "reason": "The score is 0.40 because while there are relevant statements like 'the eldest of the Pandavas, conversant with all rules of duty', much of the context is irrelevant, discussing leadership qualities and unrelated figures, which does not directly answer the question about the eldest Pandava.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Verdicts:\n[\n    {\n        \"verdicts\": [\n            {\n                \"statement\": \"the eldest of the Pandavas, conversant with all rules of duty\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"Know me to be the eldest of the sons of Kunti\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"the high-souled Pandavas possessed of every accomplishment\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement includes 'possessed of every accomplishment' which does not directly answer the question about who was the eldest among the Pandava brothers.\"\n            },\n            {\n                \"statement\": \"the eldest brother of Gada foresaw the destruction of all the kings\",\n                \"verdict\": \"no\",\n                \"reason\": \"This refers to 'the eldest brother of Gada' rather than the eldest Pandava, making it irrelevant to the question.\"\n            },\n            {\n                \"statement\": \"Being Impartial Efficient leaders should be impartial. Each and everyone should be rewarded according to his contribution. This will encourage\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement discusses leadership qualities and is unrelated to the identity of the eldest Pandava brother.\"\n            }\n        ]\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Answer Relevancy",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response was directly relevant to the input question about the eldest Pandava brother, with no irrelevant statements present.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Statements:\n[\n    \"The eldest among the Pandava brothers was Yudhishthira.\",\n    \"He was the eldest son of Kunti.\",\n    \"He was the eldest brother of Bhima and Arjuna.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        },
+        "{\"actual_output\": \"I don't have enough information in the provided context to answer why Krishna chose to be Arjuna's charioteer rather than fight in the war himself. However, it is mentioned that Krishna motivated Arjuna to choose the righteous action, suggesting that Krishna's role was more of a guide and advisor.\", \"context\": null, \"expected_output\": null, \"hyperparameters\": null, \"input\": \"Why did Krishna choose to be Arjuna's charioteer rather than fight in the war himself?\", \"retrieval_context\": [\"At that time, he decided not to fight against his own relatives, and then Lord Krishna motivated him and guided him to choose the righteous action. This help Pandavas to won the battle of\\n\\nto them was that foremost of men, (viz., Arjuna) of white steeds and\\n\\nhaving Krishna for his charioteer.[427] In the centre were king\\n\\nby Duryodhana, he wanted to fight for Pandavas. Karna \\u2013 Fighting to prove his superiority over Arjuna. Aswathama \\u2013 fighting to support his father Drona. Shakuni \\u2013 Favors Duryodhana but not interested\\n\\ndid Krishna show the field of battle unto Arjuna. And while returning\\n\\n(from the field to their camp), they heard a loud noise in the army of\"]}": {
+            "cached_metrics_data": [
+                {
+                    "metric_data": {
+                        "name": "Faithfulness",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because there are no contradictions, indicating that the actual output aligns perfectly with the retrieval context.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Truths (limit=None):\n[\n    \"Lord Krishna motivated and guided Arjuna to choose the righteous action.\",\n    \"Arjuna was a foremost man who had white steeds.\",\n    \"Krishna was Arjuna's charioteer.\",\n    \"Karna fought to prove his superiority over Arjuna.\",\n    \"Aswathama fought to support his father Drona.\",\n    \"Shakuni favored Duryodhana but was not interested in fighting.\"\n] \n \nClaims:\n[\n    \"Krishna chose to be Arjuna's charioteer rather than fight in the war himself.\",\n    \"Krishna motivated Arjuna to choose the righteous action.\",\n    \"Krishna's role was more of a guide and advisor.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Contextual Relevancy",
+                        "threshold": 0.7,
+                        "success": false,
+                        "score": 0.1111111111111111,
+                        "reason": "The score is 0.11 because the relevant statement mentions Krishna's decision not to fight against his own relatives, which is crucial for understanding his choice to be Arjuna's charioteer. However, the majority of the context is irrelevant, focusing on other characters and their motivations, leading to a low relevancy score.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Verdicts:\n[\n    {\n        \"verdicts\": [\n            {\n                \"statement\": \"At that time, he decided not to fight against his own relatives, and then Lord Krishna motivated him and guided him to choose the righteous action.\",\n                \"verdict\": \"yes\",\n                \"reason\": null\n            },\n            {\n                \"statement\": \"This help Pandavas to won the battle of\",\n                \"verdict\": \"no\",\n                \"reason\": \"The statement is incomplete and does not provide relevant information about Krishna's choice to be Arjuna's charioteer.\"\n            },\n            {\n                \"statement\": \"to them was that foremost of men, (viz., Arjuna) of white steeds and\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement lacks context regarding Krishna's decision and focuses on Arjuna without explaining Krishna's role.\"\n            },\n            {\n                \"statement\": \"by Duryodhana, he wanted to fight for Pandavas.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement discusses Duryodhana's intentions rather than Krishna's decision to be Arjuna's charioteer.\"\n            },\n            {\n                \"statement\": \"Karna \\u2013 Fighting to prove his superiority over Arjuna.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement pertains to Karna's motivations and does not relate to Krishna's choice.\"\n            },\n            {\n                \"statement\": \"Aswathama \\u2013 fighting to support his father Drona.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement focuses on Aswathama and does not provide relevant information about Krishna's actions.\"\n            },\n            {\n                \"statement\": \"Shakuni \\u2013 Favors Duryodhana but not interested\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement is about Shakuni's interests and does not pertain to Krishna's choice.\"\n            },\n            {\n                \"statement\": \"did Krishna show the field of battle unto Arjuna.\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement mentions Krishna showing the battlefield but does not explain why he chose to be a charioteer.\"\n            },\n            {\n                \"statement\": \"And while returning (from the field to their camp), they heard a loud noise in the army of\",\n                \"verdict\": \"no\",\n                \"reason\": \"This statement is unrelated to the question of Krishna's choice and focuses instead on a noise in the army.\"\n            }\n        ]\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                },
+                {
+                    "metric_data": {
+                        "name": "Answer Relevancy",
+                        "threshold": 0.7,
+                        "success": true,
+                        "score": 1.0,
+                        "reason": "The score is 1.00 because the response directly addresses the question about Krishna's choice to be Arjuna's charioteer, providing relevant insights without any irrelevant statements.",
+                        "strictMode": false,
+                        "evaluationModel": "gpt-4o-mini",
+                        "evaluationCost": 0,
+                        "verboseLogs": "Statements:\n[\n    \"I don't have enough information in the provided context to answer why Krishna chose to be Arjuna's charioteer rather than fight in the war himself.\",\n    \"It is mentioned that Krishna motivated Arjuna to choose the righteous action.\",\n    \"Krishna's role was more of a guide and advisor.\"\n] \n \nVerdicts:\n[\n    {\n        \"verdict\": \"idk\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    },\n    {\n        \"verdict\": \"yes\",\n        \"reason\": null\n    }\n]"
+                    },
+                    "metric_configuration": {
+                        "threshold": 0.7,
+                        "evaluation_model": "gpt-4o-mini",
+                        "strict_mode": false,
+                        "include_reason": true
+                    }
+                }
+            ]
+        }
+    }
+}

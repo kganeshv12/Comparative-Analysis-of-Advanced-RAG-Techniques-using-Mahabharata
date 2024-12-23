@@ -1,0 +1,155 @@
+[
+    {
+        "question": "Who was the eldest among the Pandava brothers?",
+        "metrics": [
+            {
+                "metric_name": "Faithfulness",
+                "score": 1.0
+            },
+            {
+                "metric_name": "Contextual Relevancy",
+                "score": 0.0
+            },
+            {
+                "metric_name": "Answer Relevancy",
+                "score": 0.0
+            }
+        ]
+    },
+    {
+        "question": "What were the conditions of the dice game between the Pandavas and Kauravas, and what was wagered in each round?",
+        "metrics": [
+            {
+                "metric_name": "Faithfulness",
+                "score": 0.6
+            },
+            {
+                "metric_name": "Contextual Relevancy",
+                "score": 0.0
+            },
+            {
+                "metric_name": "Answer Relevancy",
+                "score": 0.8333333333333334
+            }
+        ]
+    },
+    {
+        "question": "Detail the various divine weapons (astras) received by Arjuna during his training, from whom he received them, and under what circumstances?",
+        "metrics": [
+            {
+                "metric_name": "Faithfulness",
+                "score": 1.0
+            },
+            {
+                "metric_name": "Contextual Relevancy",
+                "score": 0.0
+            },
+            {
+                "metric_name": "Answer Relevancy",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "question": "Why did Krishna choose to be Arjuna's charioteer rather than fight in the war himself?",
+        "metrics": [
+            {
+                "metric_name": "Faithfulness",
+                "score": 1.0
+            },
+            {
+                "metric_name": "Contextual Relevancy",
+                "score": 0.0
+            },
+            {
+                "metric_name": "Answer Relevancy",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "question": "How does Bhishma's vow of celibacy and his devotion to his father's happiness reflect the theme of duty versus personal desire in the Mahabharata?",
+        "metrics": [
+            {
+                "metric_name": "Faithfulness",
+                "score": 1.0
+            },
+            {
+                "metric_name": "Contextual Relevancy",
+                "score": 0.0
+            },
+            {
+                "metric_name": "Answer Relevancy",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "question": "Analyze how the concept of Time (Kala) is portrayed as both a destroyer and preserver throughout the epic, using specific examples from different parvas?",
+        "metrics": [
+            {
+                "metric_name": "Faithfulness",
+                "score": 0.75
+            },
+            {
+                "metric_name": "Contextual Relevancy",
+                "score": 0.0
+            },
+            {
+                "metric_name": "Answer Relevancy",
+                "score": 0.6
+            }
+        ]
+    },
+    {
+        "question": "Describe the events leading up to and including the burning of the Khandava Forest. What were its immediate and long-term consequences?",
+        "metrics": [
+            {
+                "metric_name": "Faithfulness",
+                "score": 0.7333333333333333
+            },
+            {
+                "metric_name": "Contextual Relevancy",
+                "score": 0.0
+            },
+            {
+                "metric_name": "Answer Relevancy",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "question": "Compare and contrast the characters of Karna and Arjuna, analyzing their similarities, differences, and how their parallel journeys contribute to the epic's themes.",
+        "metrics": [
+            {
+                "metric_name": "Faithfulness",
+                "score": 1.0
+            },
+            {
+                "metric_name": "Contextual Relevancy",
+                "score": 0.7692307692307693
+            },
+            {
+                "metric_name": "Answer Relevancy",
+                "score": 1.0
+            }
+        ]
+    },
+    {
+        "question": "Examine the role of women in the Mahabharata, focusing on Draupadi, Kunti, and Gandhari. How do their actions and choices drive the narrative and reflect the epic's views on gender, power, and dharma?",
+        "metrics": [
+            {
+                "metric_name": "Faithfulness",
+                "score": 0.7647058823529411
+            },
+            {
+                "metric_name": "Contextual Relevancy",
+                "score": 0.4444444444444444
+            },
+            {
+                "metric_name": "Answer Relevancy",
+                "score": 0.9615384615384616
+            }
+        ]
+    }
+]

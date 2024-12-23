@@ -1,0 +1,61 @@
+# Mahabharata RAG Model Test Questions
+
+## Category 1: Factual Questions
+
+### Easy
+Q: Who was the eldest among the Pandava brothers?
+* Expected answer should include: Yudhishthira
+* Key facts: First-born, also known as Dharmaraja
+* Answer scope: Simple, direct naming
+
+### Medium
+Q: What were the conditions of the dice game between the Pandavas and Kauravas, and what was wagered in each round?
+* Expected answer should include: Progressive stakes, kingdom, personal wealth, brothers, and finally Draupadi
+* Key facts: Multiple rounds, increasing stakes, final outcome
+* Answer scope: Sequence of events with specific details
+
+### Hard
+Q: Detail the various divine weapons (astras) received by Arjuna during his training, from whom he received them, and under what circumstances?
+* Expected answer should include: Weapons from Indra, Shiva (Pashupatastra), Varuna, specific training periods
+* Key facts: Names of weapons, divine teachers, conditions of receiving them
+* Answer scope: Comprehensive list with contextual details
+
+## Category 2: Inference/Interpretation Questions
+
+### Easy
+Q: Why did Krishna choose to be Arjuna's charioteer rather than fight in the war himself?
+* Expected answer should include: Krishna's role as guide, strategic importance, symbolic significance
+* Key facts: Krishna's choice, relationship with Arjuna
+* Answer scope: Basic interpretation of Krishna's decision
+
+### Medium
+Q: How does Bhishma's vow of celibacy and his devotion to his father's happiness reflect the theme of duty versus personal desire in the Mahabharata?
+* Expected answer should include: Analysis of dharma, personal sacrifice, long-term consequences
+* Key facts: Bhishma's vow, impact on kingdom, moral implications
+* Answer scope: Thematic analysis with supporting examples
+
+### Hard
+Q: Analyze how the concept of Time (Kala) is portrayed as both a destroyer and preserver throughout the epic, using specific examples from different parvas.
+* Expected answer should include: Philosophy of time, cyclical nature, examples from multiple storylines
+* Key facts: References to time from different parts of the epic, philosophical implications
+* Answer scope: Deep analysis with multiple textual references
+
+## Category 3: In-Detail/Long Answer Questions
+
+### Easy
+Q: Describe the events leading up to and including the burning of the Khandava Forest. What were its immediate and long-term consequences?
+* Expected answer should include: Krishna and Arjuna's role, displaced creatures, building of Indraprastha
+* Key facts: Timeline, participants, outcomes
+* Answer scope: Narrative description with basic cause-effect relationship
+
+### Medium
+Q: Compare and contrast the characters of Karna and Arjuna, analyzing their similarities, differences, and how their parallel journeys contribute to the epic's themes.
+* Expected answer should include: Birth circumstances, skills, moral choices, relationships with Krishna
+* Key facts: Character backgrounds, key decisions, philosophical implications
+* Answer scope: Detailed character analysis with thematic connections
+
+### Hard
+Q: Examine the role of women in the Mahabharata, focusing on Draupadi, Kunti, and Gandhari. How do their actions and choices drive the narrative and reflect the epic's views on gender, power, and dharma?
+* Expected answer should include: Major incidents involving each character, their influences on key decisions, societal implications
+* Key facts: Multiple story arcs, character motivations, cultural context
+* Answer scope: Comprehensive analysis with social, cultural, and philosophical dimensions
